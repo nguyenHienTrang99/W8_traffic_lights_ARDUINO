@@ -2,7 +2,6 @@ void setup() {
     pinMode(2, OUTPUT);
     pinMode(3, OUTPUT);
     pinMode(4, OUTPUT);
-    //dùng vòng lặp for để thiết lập các led tắt khi khởi động
     for (int i = 2; i < 5; i++) {
         digitalWrite(i, LOW);
     }
